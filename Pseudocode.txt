@@ -1,0 +1,34 @@
+How do I want to solve this?
+
+Get the cpu to generate a choice from Rock, Paper or Scissors. 
+Random number 1, 2, 3
+
+(Store that value secretly - does this mean that someone could console.log the value and cheat???
+Is there a way to obfuscate this in order to halt cheaters? A problem for a diff day maybe?)
+
+Prompt user with choice
+Store choice in same syntax that cpu uses
+Ensure that failsafe is implemented if user types "blamonge" or something else equally mental.
+
+Do a cool countdown sequence and then present the winner/loser.
+
+Ask a Q: Want to play again? Y/N
+
+Go back to the start of the function and run it until infinity.
+Alternatively give a nice little credits screen if the player doesn't want to play any more.
+Done???
+
+Ideas: 
+- Ask player for their name?
+- Keep a high score?
+- A leaderboard?!
+
+----------------------------------------------------------------------------------
+Pseudocode:
+Define Rock = 1, Paper = 2, Scissors = 3;
+Randomnumber between 1,2,3.
+Print "Choose your weapon: Rock, Paper, Scissors"
+Take choice and convert to numbered value.
+Compare 1 beats 2, beats 3, beats 1.
+Return winner as text string
+----------------------------------------------------------------------------------

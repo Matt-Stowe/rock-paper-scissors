@@ -1,3 +1,5 @@
+function game() {
+
 function computerPlay() {
   let selectRandom = Math.floor(Math.random() *3);
   if (selectRandom === 0) {
@@ -70,3 +72,8 @@ const roundResult = playRound();
 
 // console.log(computerSelection)
 // console.log(playerSelection)
+}
+
+for (let i = 0; i < 5; i++) {
+  game()
+}
